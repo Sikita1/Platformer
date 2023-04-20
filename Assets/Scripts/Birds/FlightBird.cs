@@ -3,11 +3,11 @@ using DG.Tweening;
 
 public class FlightBird : MonoBehaviour
 {
-    private int _endPoint = -20;
-    private int _speed = 25;
+    [SerializeField] private Transform _endPoint;
+    [SerializeField] private int _speed;
 
     private void Start()
     {
-        transform.DOMoveX(_endPoint, _speed).SetEase(Ease.Linear).SetLoops(-1, LoopType.Restart);
+        transform.DOMoveX(_endPoint.position.x, _speed).SetEase(Ease.Linear).SetLoops(-1, LoopType.Restart);
     }
 }
