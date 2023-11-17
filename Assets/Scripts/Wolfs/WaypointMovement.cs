@@ -20,7 +20,6 @@ public class WaypointMovement : MonoBehaviour
     private void Update()
     {
         Transform target = _points[_currentPoint];
-
         Vector3 direction = target.position - transform.position;
 
         transform.position = Vector2.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
