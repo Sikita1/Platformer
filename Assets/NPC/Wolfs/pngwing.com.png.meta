@@ -101,6 +101,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -746,9 +758,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       pngwing.com_17: 541987825
-      pngwing.com_23: -1887999146
+      pngwing.com_6: 364528957
       pngwing.com_26: -1128079818
-      pngwing.com_28: -116304811
       pngwing.com_29: 2111134158
       pngwing.com_16: 585462542
       pngwing.com_12: 784414190
@@ -765,6 +776,7 @@ TextureImporter:
       pngwing.com_3: 43342008
       pngwing.com_5: 1771337729
       pngwing.com_8: 191356519
+      pngwing.com_23: -1887999146
       pngwing.com_14: -616970503
       pngwing.com_10: -552931917
       pngwing.com_27: 647818010
@@ -772,7 +784,7 @@ TextureImporter:
       pngwing.com_21: -635839361
       pngwing.com_19: -2088013334
       pngwing.com_24: -1325243355
-      pngwing.com_6: 364528957
+      pngwing.com_28: -116304811
       pngwing.com_9: -1396840082
       pngwing.com_20: -41338639
   spritePackingTag: 
